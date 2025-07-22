@@ -47,16 +47,16 @@ void define_numero(char numero, PIO pio, uint sm){
         switch (numero)
     {
     case 0:
-        desenho(desenho0, valorLed, pio, sm, 0.0, 0.1, 0.0); // desenho do número 0
+        desenho(desenho0, valorLed, pio, sm, 0.1, 0.0, 0.0); // desenho do número 0
         break;
     case 1:
-        desenho(desenho1, valorLed, pio, sm, 0.1, 0.1, 0.0); // desenho do número 1
+        desenho(desenho1, valorLed, pio, sm, 0.0, 0.1, 0.0); // desenho do número 1
         break;
     case 2:
-        desenho(desenho2, valorLed, pio, sm, 0.1, 0.0, 0.0); // desenho do número 2
+        desenho(desenho2, valorLed, pio, sm, 0.0, 0.0, 0.1); // desenho do número 2
         break;
     case 3:
-        desenho(apagado, valorLed, pio, sm, 0.1, 0.0, 0.0); // desenho do número 3
+        desenho(apagado, valorLed, pio, sm, 0.0, 0.0, 0.0); // desenho do número 3
         break;
     }
 };
